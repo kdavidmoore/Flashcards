@@ -1,3 +1,7 @@
+# Loosely based on challenge from: https://openhatch.org/wiki/Flash_card_challenge
+# Takes a tab-separated value file as the flashcard dictionary
+# To run, type into a terminal, "python flashcards.py my_dictionary.tsv", where my_dictionary.tsv is a tab-separated value file located in the same folder as flashcards.py.
+
 from sys import argv
 
 script, filename = argv
