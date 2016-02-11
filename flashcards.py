@@ -1,9 +1,6 @@
 # Based on a challenge from: https://openhatch.org/wiki/Flash_card_challenge
 # Takes a tab-separated value file as the flashcard dictionary
-# Displays flashcards randomly (the same cards may repeat)
-# To run, type into a terminal, "python flashcards.py my_dict.tsv",
-# where my_dict.tsv is a tab-separated value file located
-# in the same folder as flashcards.py.
+# To run, type into a terminal, "python flashcards.py my_dict.tsv", where my_dict.tsv is a tab-separated value file located in the same folder as flashcards.py.
 import random
 from sys import argv
 script, filename = argv
